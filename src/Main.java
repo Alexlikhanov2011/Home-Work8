@@ -123,14 +123,14 @@ public class Main {
     }
     public static void task4(){
         System.out.println("Задание 4");
-        int [] number4 = {1, 2, 3};
-        for (int i = 0; i < number4.length; i++) {
-if (number4[i] % 2 != 0){
-    number4[i]+=1;
+        int [] number = {1, 2, 3};
+        for (int i = 0; i < number.length; i++) {
+if (number[i] % 2 != 0){
+    number[i]+=1;
 }
         }
 
-        System.out.println(Arrays.toString(number4));
+        System.out.println(Arrays.toString(number));
 
     }
 
